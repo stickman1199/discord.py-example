@@ -5,7 +5,7 @@ client = commands.Bot(command_prefix="!")
 
 @client.event
 async def on_ready():
-  print("Bot Ready")
+  print("Ready!")
   
 @client.command()
 async def echo(ctx):
