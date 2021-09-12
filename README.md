@@ -10,21 +10,21 @@ To protect your bot token (if you're using public editors) create a `.env` file 
 
 # bot.py Example:
 
-```import discord
+import discord
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix="!") # You can replace ! with your bot prefix.
+bot = commands.Bot(command_prefix="!") #You can replace ! with your bot prefix.
 
-@bot.event # Ready event
+@bot.event #Ready event
 async def on_ready():
   print("Ready!")
   
-@bot.command() # sample command
+@bot.command() #sample command
 async def echo(ctx):
   await ctx.send("Hello World")
   
-@bot.event # Bot activity ready event.
+@bot.event #Bot activity ready event.
 async def on_ready():
   await client.change_presence(status=discord.Status.idle, activity=discord.Game("Hello World"))
 
-bot.run("Bot Token") # Read README.md```
+bot.run("Bot Token") #Read README.md
