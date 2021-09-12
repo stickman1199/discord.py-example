@@ -1,6 +1,5 @@
-# discord.py-tutorial-
-discord.py Bot Tutorial
+# discord.py
+Requires Python 3.8 or higher.
 
-
-# WARNING
-To protect your bot token (if you're using public editors) create a `.env` file and the code should be TOKEN=bot_token replace bot_token with your bot token and after doing that change bot token area to "client.run(os.getenv(TOKEN))".
+# Warning
+If you're using public editors. Please create an `.env` file and code should be `TOKEN=Bot_Token` replace Bot_Token to your bot token and after doing that change bot token area to `bot.run(os.getenv(TOKEN))`
