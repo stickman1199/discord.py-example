@@ -7,4 +7,4 @@ bot = commands.Bot(command_prefix='!')
 async def echo(ctx):
     await ctx.send('Hello World')
 
-bot.run('TOKEN')
+bot.run('Bot Token')
