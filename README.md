@@ -27,4 +27,4 @@ async def echo(ctx):
 async def on_ready():
   await client.change_presence(status=discord.Status.idle, activity=discord.Game("Hello World"))
 
-client.run("Bot Token") # Read README.md
+bot.run("Bot Token") # Read README.md
