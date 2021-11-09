@@ -1,5 +1,18 @@
-# discord.py
-Requires Python 3.8 or higher.
+# [discord.py](http://discordpy.rtfd.io/en/latest/)
 
-# Warning
-If you're using public editors. Please create an `.env` file and code should be `TOKEN=Bot_Token` replace Bot_Token to your bot token and after doing that change bot token area to `bot.run(os.getenv(TOKEN))`
+### Warning
+Python 3.8 or higher is required.
+
+### Installation
+```python
+# Linux/macOS
+python3 -m pip install -U discord.py
+
+# Windows
+py -3 -m pip install -U discord.py
+```
+
+# Links for discord.py
+- [Documentation](https://discordpy.readthedocs.io/en/latest/index.html)
+- [Discord Server](https://discord.gg/dpy)
+- [Discord API](https://discord.gg/discord-api)
